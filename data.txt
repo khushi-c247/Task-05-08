@@ -1,0 +1,18 @@
+
+Just-in-time compiled language
+Embedded along with HTML and makes web pages alive
+Originally named as LiveScript.
+Executable in both browser and server which has Javascript engines like V8(chrome), SpiderMonkey(Firefox) etc.
+Syntax help
+variable declaration
+Keyword	Description	Scope
+var	Var is used to declare variables(old way of declaring variables)	Function or global scope
+let	let is also used to declare variables(new way)	Global or block Scope
+const	const is used to declare const values. Once the value is assigned, it can not be modified	Global or block Scope
+Backtick Strings
+Interpolation
+let greetings = `Hello ${name}`
+Multi line Strings
+const msg = `
+hello
+world!
